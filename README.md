@@ -1,2 +1,5 @@
-# bioSite
-Repository to Hold HTML &amp; CSS files related to the bioSite project.
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+* Sue Sampson
+* Steffan Hinkle
