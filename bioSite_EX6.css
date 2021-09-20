@@ -1,0 +1,140 @@
+/*<!--Hinkle, 09/19/2021, Assignment: bioSite: Development -->*/
+
+body {
+    margin: 0%;
+    font-family: 'Azeret Mono';
+}
+
+header {
+    color: #1b3c59;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-family: 'Abel';
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #F2A999;
+    border-bottom: 15px solid #f28177;
+    list-style: none;
+    text-align: center;
+
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #f28177;
+    color: #1b3c59;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    width: auto;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #F2A999;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/*<!--
+    References:
+    CSS Flexbox Container. (n.d.). W3schools. Retrieved September 20, 2021, from https://www.w3schools.com/css/css3_flexbox_container.asp#flex-direction
+    CSS Image Gallery. (n.d.). W3schools.Com. Retrieved September 20, 2021, from https://www.w3schools.com/css/css_image_gallery.asp
+    How To Align Images Side By Side. (n.d.). W3schools.Com. Retrieved September 20, 2021, from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+    placeholder-image-600x400. (n.d.). [Illustration]. Placeholder-Image-600x400. https://pasadenanaturalhealth.com/wp-content/uploads/2017/08/placeholder-image-600x400.jpg
+    Roberts, H. (2011, January 29). Create a centred horizontal navigation. Csswizardry. https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/
+ -->*/
