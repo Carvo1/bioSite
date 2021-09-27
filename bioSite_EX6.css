@@ -1,4 +1,4 @@
-/*<!--Hinkle, 09/19/2021, Assignment: bioSite: Development -->*/
+/*<!--Hinkle, 09/26/2021, Assignment: bioSite: Development & Assignment: bioSite: Development and GitHub Pages Deployment-->*/
 
 body {
     margin: 0%;
@@ -14,6 +14,19 @@ header {
 h1 {
     font-weight: 400;
     font-family: 'Abel';
+}
+
+#text_about {
+  padding-top: 5%;
+  text-align: left;
+}
+
+#text_hobbies {
+  margin-top: 50%;
+}
+
+#space {
+  margin-top: 50%;
 }
 
 #navbar {
@@ -55,12 +68,16 @@ div.gallery {
   
   div.gallery img {
     width: 100%;
-    height: auto;
   }
   
+  #landing {
+    height: 800px;
+  }
+
   div.desc {
     padding: 15px;
     text-align: center;
+    font-size: 14px;
   }
   
   * {
@@ -98,11 +115,11 @@ div.gallery {
 }
 
 .flex-container > div {
-    background-color: #f1f1f1;
-    width: auto;
+    background-color: white;
+    width: 25%;
     margin: 10px;
-    text-align: center;
-    font-size: 12px;
+    text-align: justify;
+    font-size: 14px;
 }
 
 footer {
