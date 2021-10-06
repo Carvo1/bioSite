@@ -13,7 +13,8 @@ header {
 
 h1 {
     font-weight: 400;
-    font-family: 'Abel';
+    /*font-family: 'Abel';*/
+    font-family: 'Azeret Mono';
 }
 
 #text_about {
@@ -23,6 +24,10 @@ h1 {
 
 #text_hobbies {
   margin-top: 50%;
+}
+
+#text_hobbies_2 {
+  margin-top: 30%;
 }
 
 #space {
@@ -116,10 +121,10 @@ div.gallery {
 
 .flex-container > div {
     background-color: white;
-    width: 25%;
+    width: 35%;
     margin: 10px;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer {
